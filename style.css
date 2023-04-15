@@ -1,0 +1,164 @@
+html{
+    font-family: 'Roboto', sans-serif; !important
+}
+body{
+   margin: auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color: #1F2937;
+}
+.logo{
+    margin-left: 13%;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ul{
+    display: flex;
+    margin-right: 13%;
+    gap: 25px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 7%;
+    gap: 10%;
+}
+.main-txt{
+    display: flex;
+    flex-direction: column;
+}
+.main-txt h1{
+    margin-top: 5%;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 1%;
+}
+.main-txt p{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    margin-top: 0%;
+}
+.image img{
+    height: 264px;
+    width: 500px;
+}
+.hero button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10%;
+    border: #3882F6;
+    padding: 12px;
+    width: 25%;
+    font-weight: bold;
+}
+.hero2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+.info{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+} 
+.boxes{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border: solid 3px #3882F6;
+    border-radius: 10%;
+}
+.box p{
+    color: #1F2937;
+    font-weight: lighter;
+}
+.hero3{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+.quote{
+    width: 50%;
+    margin: 5%;
+}
+.quote p{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 0px;
+}
+.hero4{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+}
+.CTA{
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    width: 75%;
+    border-radius: 10px;
+}
+.CTA, .text{
+    align-self: center;
+    margin: 85px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.CTA button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: solid 2px #F9FAF8;
+    padding: 8px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin: auto;
+    font-weight: bold;
+}
+.CTA p{
+    color: #F9FAF8;
+    font-size: 18px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+.footer p{
+    color: #F9FAF8;
+    font-weight: 200;
+    padding: 20px;
+}
+
